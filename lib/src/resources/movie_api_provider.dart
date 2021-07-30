@@ -5,7 +5,6 @@ import '../models/item_model.dart';
 
 class MovieApiProvider {
   Client client = Client();
-  final _apiKey = '1e3b1dace9eae2db56e3bc2bbb0b3fe7';
 
   Future<ItemModel> fetchMovieList() async {
     print("entered");
